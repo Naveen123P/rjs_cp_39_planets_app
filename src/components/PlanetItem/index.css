@@ -1,0 +1,8 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .planets {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #05acff;
+  }
+}
