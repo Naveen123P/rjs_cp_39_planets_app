@@ -1,7 +1,5 @@
 // Write your code here
 import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
 
 import PlanetItem from '../PlanetItem'
 
@@ -22,7 +20,7 @@ const PlanetSlider = props => {
               <div className="img-con">
                 <img
                   src={planet.imageUrl}
-                  alt={planet.name}
+                  alt={`planet ${planet.name}`}
                   className="planet-image"
                 />
               </div>
